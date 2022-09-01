@@ -16,6 +16,10 @@ h1{
     margin-bottom: 2rem;
 }
 
+.container > p{
+    margin-bottom: 4rem;
+}
+
 
 /* utilities */
 .clearfix::after{
@@ -28,13 +32,10 @@ h1{
 
 img{
     float: left;
+    max-width: 100%;
 }
 
-.card_text{
-    padding: 20px;
-}
-
-strong, span{
+span{
     margin-left: 10px;
-    margin-bottom: 40px;
+    margin-top: 10px;
 }
