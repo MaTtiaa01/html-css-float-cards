@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    
+}
+
+h1{
+    text-align: center;
+    color: rgb(224, 33, 33);
+    margin-bottom: 2rem;
+}
+
+
+/* utilities */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* main */
+
+img{
+    float: left;
+}
+
+.card_text{
+    padding: 20px;
+}
+
+strong, span{
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
