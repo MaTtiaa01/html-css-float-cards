@@ -51,7 +51,7 @@ span{
 .card{
     color: white;
     background-color: black;
-
+    box-shadow: 2px 2px grey;
 }
 
 .card_text{
@@ -62,4 +62,6 @@ span{
 .card_text > p{
     margin: 10px 0;
 }
+
+
 
