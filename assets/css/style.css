@@ -34,6 +34,7 @@ img{
     float: left;
     max-width: 100%;
     width: 100px;
+    margin-right: 20px;
 }
 
 span{
@@ -41,11 +42,24 @@ span{
     margin-top: 10px;
 }
 
-.card{
+.card_container{
     width: calc(100% / 3);
     padding: 20px;
+    background-color: white;
+    float: left;
+}
+.card{
     color: white;
     background-color: black;
 
+}
+
+.card_text{
+    float: left;
+    margin-top: 10px;
+}
+
+.card_text > p{
+    margin: 10px 0;
 }
 
